@@ -13,14 +13,14 @@
           </tr>
         </thead>
         <tbody>
-          <?php foreach ($rooms as $room ) { ?>
+          <?php foreach ($selectedRoom as $room ) { ?>
           <tr>
             <td><?php echo $room['id']?></td>
             <td><?php echo $room['room_number']?></td>
             <td><?php echo $room['floor']?></td>
             <td><?php echo $room['beds'] ?></td>
             <td> <a href="<?php echo $basepath . 'show/show.php?id=' . $room['id']; ?>">View</a>
-                  <a href="<?php echo $basepath . 'update/edit.php?id=' . $room['room_number']; ?>">Update</a>
+                  <a href="<?php echo $basepath . 'update/edit.php?id=' . $room['id']; ?>">Update</a>
                 <form action="<?php echo $basepath . 'delete/delete.php'; ?>" method="post">
                   <input type="hidden" name="formid" value="<?php echo $room['id']; ?>">
                   <input type="submit" name="" value="cancella">

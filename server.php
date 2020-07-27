@@ -6,15 +6,15 @@ $results = $conn->query($sql);
 
 
 if ($results && $results->num_rows > 0) {
-  $rooms = [];
+  $selectedRoom = [];
 
   while ($row = $results->fetch_assoc()) {
-    $rooms[] = $row;
+    $selectedRoom[] = $row;
   }
 
 }
 elseif ($results) {
-  $rooms = [];
+  $selectedRoom = [];
 
 }
 else {

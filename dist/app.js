@@ -115,8 +115,8 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/giusepperotolo/Documents/htdocs/esercitazione_scolozzi_venerdi/src/js/app.js */"./src/js/app.js");
-module.exports = __webpack_require__(/*! /Users/giusepperotolo/Documents/htdocs/esercitazione_scolozzi_venerdi/src/css/app.scss */"./src/css/app.scss");
+__webpack_require__(/*! /Users/giusepperotolo/Documents/htdocs/php-hotel-crud/src/js/app.js */"./src/js/app.js");
+module.exports = __webpack_require__(/*! /Users/giusepperotolo/Documents/htdocs/php-hotel-crud/src/css/app.scss */"./src/css/app.scss");
 
 
 /***/ })
