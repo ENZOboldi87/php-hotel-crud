@@ -1,7 +1,7 @@
 <?php
 include __DIR__ . '/../database.php';
 
-$room_number = $_POST['roomNumber'];
+$room_number = $_POST['room_number'];
 $room_floor = $_POST['floorNumber'];
 $room_beds = $_POST['roomBeds'];
 $roomId = $_POST['roomId'];
