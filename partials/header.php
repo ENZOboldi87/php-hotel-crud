@@ -10,8 +10,8 @@
   </head>
   <body>
     <header>
-      <div class="container">
-        <div class="nav">
+      <div class="container text-center">
+        <div>
           <h1>Boolean Hotel</h1>
         </div>
       </div>

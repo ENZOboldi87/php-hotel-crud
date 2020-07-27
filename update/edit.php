@@ -1,7 +1,5 @@
 <?php include __DIR__ . '/server.php'; ?>
 <?php include __DIR__ . '/../partials/header.php'; ?>
-<?php var_dump($selectedRoom['id']); ?>
-
 
 <main>
   <h2>Modifica stanza numero con id <?php echo $selectedRoom['id'] ?></h2>
