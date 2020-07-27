@@ -6,7 +6,7 @@
 <main>
   <h2>Modifica stanza numero con id <?php echo $selectedRoom['id'] ?></h2>
 
-  <form action="<?php echo $basepath . '/update/update.php'; ?>" method="post">
+  <form action="<?php echo $basepath . 'update/update.php'; ?>" method="post">
     <input type="hidden" name="roomId" value="<?php echo $selectedRoom['id'] ?>">
     <div>
       <label>Numero di stanza</label>
